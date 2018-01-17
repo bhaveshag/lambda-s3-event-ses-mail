@@ -16,8 +16,8 @@ print("Received event from s3 bucket ")# Try to send the email.
 
 s3 = boto3.client('s3')
 
-SENDER = "agr.bhavesh@gmail.com"
-RECIPIENT = "nilesh.leve04@gmail.com"
+SENDER = "<sender@example.com>"
+RECIPIENT = "<receiver@example.com>"
 SUBJECT = "Amazon SES Test (SDK for Python)"
 AWS_REGION = "us-east-1"
 BODY_TEXT = ("Amazon SES Test (Python)\r\n"
